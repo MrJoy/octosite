@@ -1,13 +1,26 @@
 GIT
   remote: git://github.com/MrJoy/octodemo.git
-  revision: 9de1f87c34bebaca0d82f82a33c4f6ef69089f12
+  revision: 282748f1fc080413a7e98f349f186ccf69d7b2cb
   specs:
     octodemo (0.0.1)
+      activesupport (~> 3.2.13)
       rake (~> 10.0.4)
+
+GIT
+  remote: git://github.com/MrJoy/octoplugin.git
+  revision: d90050c9caa6fd0664b62ec4d4b248d6dbcaf674
+  specs:
+    octoplugin (0.0.1)
+      octodemo (~> 0.0.1)
 
 GEM
   remote: https://rubygems.org/
   specs:
+    activesupport (3.2.13)
+      i18n (= 0.6.1)
+      multi_json (~> 1.0)
+    i18n (0.6.1)
+    multi_json (1.7.4)
     rake (10.0.4)
 
 PLATFORMS
@@ -15,3 +28,4 @@ PLATFORMS
 
 DEPENDENCIES
   octodemo!
+  octoplugin!
