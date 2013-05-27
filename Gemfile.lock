@@ -1,12 +1,14 @@
 GIT
   remote: git://github.com/MrJoy/octodemo.git
-  revision: 7dd96ce0693271f6a6df663b4b75b606d429f1b5
+  revision: 9de1f87c34bebaca0d82f82a33c4f6ef69089f12
   specs:
     octodemo (0.0.1)
+      rake (~> 10.0.4)
 
 GEM
   remote: https://rubygems.org/
   specs:
+    rake (10.0.4)
 
 PLATFORMS
   ruby

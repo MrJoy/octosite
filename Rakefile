@@ -1,8 +1,4 @@
 require 'rubygems'
 require 'bundler/setup'
-Bundler.setup
-
-require 'octodemo'
-Octodemo.init!
+Bundler.require
 Octodemo::Rake.init!(self)
-
