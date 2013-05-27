@@ -1,0 +1,15 @@
+GIT
+  remote: git://github.com/MrJoy/octodemo.git
+  revision: 7dd96ce0693271f6a6df663b4b75b606d429f1b5
+  specs:
+    octodemo (0.0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  octodemo!
