@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/MrJoy/octodemo.git
-  revision: 282748f1fc080413a7e98f349f186ccf69d7b2cb
+  revision: 9e4d22a9496e04b52238171fd954126ece0b7257
   specs:
     octodemo (0.0.1)
       activesupport (~> 3.2.13)
@@ -8,7 +8,7 @@ GIT
 
 GIT
   remote: git://github.com/MrJoy/octoplugin.git
-  revision: d90050c9caa6fd0664b62ec4d4b248d6dbcaf674
+  revision: e694f61680ec8601a4741b3075c9f20923479348
   specs:
     octoplugin (0.0.1)
       octodemo (~> 0.0.1)
